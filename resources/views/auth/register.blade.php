@@ -66,13 +66,14 @@
                     <!-- Login Tab -->
                     <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
                         <div class="form-container">
-                            <form>
+                        <form method ="POST" action="{{ route ('login')}}">
+                            @csrf
                                 <div class="mb-3">
-                                    <label for="loginEmail" class="form-label">Email address</label>
+                                    <label for="loginEmail":value ="__('loginEmail')" class="form-label">Email address</label>
                                     <input type="email" class="form-control" id="loginEmail" placeholder="Enter email">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="loginPassword" class="form-label">Password</label>
+                                    <label for="loginPassword" :value ="__('loginPassword')" class="form-label">Password</label>
                                     <input type="password" class="form-control" id="loginPassword" placeholder="Password">
                                 </div>
                                 <button class="gradient-button">Login</button>
@@ -84,22 +85,24 @@
                     <!-- Register Tab -->
                     <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
                         <div class="form-container">
-                            <form>
+                            <form method ="POST" action="{{ route ('register')}}">
+                                @csrf
                                 <div class="mb-3">
-                                    <label for="registerName" class="form-label">Full Name</label>
+                                    <label for="registerName" :value ="__('registerName')" class="form-label">Full Name</label>
                                     <input type="text" class="form-control" id="registerName" placeholder="Enter your name">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="registerEmail" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="registerEmail" placeholder="Enter email">
+                                    <label for="registerEmail"  :value ="__('registerEmail')" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="registerEmail"  placeholder="Enter email">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="registerPassword" :value ="__('registerPassword')" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="registerPassword"  placeholder="Password">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="registerPassword" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="registerPassword" placeholder="Password">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="registerConfirmPassword" class="form-label">Confirm Password</label>
-                                    <input type="password" class="form-control" id="registerConfirmPassword" placeholder="Confirm Password">
+                                    <label for="registerConfirmPassword" :value ="__('registerConfirmPassword')" class="form-label">Confirm Password</label>
+                                    <input type="password" class="form-control" id="registerConfirmPassword"  placeholder="Confirm Password">
                                 </div>
                                 <button class="gradient-button">Register</button>
                             </form>

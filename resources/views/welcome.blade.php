@@ -24,7 +24,7 @@
                 <a class ="btn-getstarted" style="position: absolute; right: 100px; top: 10px;" href="{{ route('register')}}">Register</a>
 
                 <!-- Navbar brand and toggler -->
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top">Earl Bootstrap</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -43,8 +43,8 @@
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
+                        <h1 class="mx-auto my-0 text-uppercase">E J P</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">THEY NOT LIKE US.</h2>
                         <a class="btn btn-primary" href="#about">Get Started</a>
                     </div>
                 </div>
@@ -55,11 +55,11 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Built with Bootstrap 5</h2>
+                        <h2 class="text-white mb-4">Fool me one time shame on you</h2>
                         <p class="text-white-50">
-                            Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
-                            The theme is open source, and you can use it for any purpose, personal or commercial.
+                            Jcole/Kendric Lamar
+                            <a href="https://startbootstrap.com/theme/grayscale/"></a>
+                        
                         </p>
                     </div>
                 </div>
@@ -74,8 +74,11 @@
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="../../../welcome-page/assets/img/bg-masthead.jpg" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                            <h4>No Role Modelz</h4>
+                            <p class="text-black-50 mb-0">There's an old saying in Tennessee, I know it's in Texas
+Probably in Tennessee, that says
+"Fool me once, shame on
+Shame on you"</p>
                         </div>
                     </div>
                 </div>
@@ -87,7 +90,9 @@
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
                                     <h4 class="text-white">Misty</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                    <p class="mb-0 text-white-50">This is Martin Luther King in the club, gettin' dubs, huh
+With a bad bitch in his ear, sayin' that she down for whatever
+In the back of his mind is Coretta</p>
                                 </div>
                             </div>
                         </div>
@@ -101,7 +106,14 @@
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
                                     <h4 class="text-white">Mountains</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well!</p>
+                                    <p class="mb-0 text-white-50">And I ain't never did this before, no
+And I ain't never did this before, no
+And I ain't never did this before, no
+And I ain't never did this before, no
+And I ain't never did this before, no
+I ain't never did this before, no
+And I ain't never did this before, no
+And I ain't never did this before, no</p>
                                 </div>
                             </div>
                         </div>
@@ -115,7 +127,7 @@
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
                         <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+                        <h2 class="text-white mb-5">JCOLE</h2>
                         <!-- * * * * * * * * * * * * * * *-->
                         <!-- * SB Forms Contact Form * *-->
                         <!-- * * * * * * * * * * * * * * *-->
